@@ -1,9 +1,11 @@
-// two components
-// 1) list item
-// 2) list
+/* three components
+1) form component
+2) name input
+3) email component
+*/
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var List = require('./components/List.jsx');
+var LeadCapture = require('./components/LeadCapture.jsx');
 
-ReactDOM.render(<List />, document.getElementById('ingredients'));
+ReactDOM.render(<LeadCapture />, document.getElementById('leadCapture'));
